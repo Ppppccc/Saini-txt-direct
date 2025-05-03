@@ -75,8 +75,8 @@ keyboard = InlineKeyboardMarkup(
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://tinypic.host/images/2025/02/07/IMG_20250207_224444_975.jpg",
-    "https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png",
+    "https://ibb.co/XrrWC3kc",
+    "https://ibb.co/XrrWC3kc",
     # Add more image URLs as needed
 ]
 
@@ -246,7 +246,7 @@ async def restart_handler(_, m):
 async def start_command(bot: Client, message: Message):
     random_image_url = random.choice(image_urls)
     caption = (
-        "𝐇𝐞𝐥𝐥𝐨 गांडु 👋!\n\n➠ 𝐈 𝐚𝐦 URL UPLODER 𝐁𝐨𝐭\n\n➠ Can Extract Videos & PDFs From Your Text File and Upload to Telegram!\n\n➠ For Guide Use Command /help 📖\n\n➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : 🌑 •]••´º´•» 🅓🅐🅡🅚 🅟🅡🅘🅝🅒🅔 «•´º´••[• 🌑"
+        "𝐇𝐞𝐥𝐥𝐨 Mr. 👋!\n\n➠ 𝐈 𝐚𝐦 URL UPLODER 𝐁𝐨𝐭\n\n➠ Can Extract Videos & PDFs From Your Text File and Upload to Telegram!\n\n➠ For Guide Use Command /help 📖\n\n➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : 🌑 •]••´º´•» 🅓🅐🅡🅚 🅟🅡🅘🅝🅒🅔 «•´º´••[• 🌑"
     )
     await bot.send_photo(
         chat_id=message.chat.id,
@@ -283,7 +283,7 @@ async def info(bot: Client, update: Message):
 @bot.on_message(filters.command(["help"]))
 async def txt_handler(client: Client, m: Message):
     await bot.send_message(m.chat.id, text= (
-        f"🎉Congrats! You are using *DARK* *PRINCE*:\n\n"
+        f"🎉Congrats! You are using •´º´•» 🅓🅐🅡🅚 🅟🅡🅘🅝🅒🅔 «•´º´••:\n\n"
         f"✦**Available Commands Here**✦\n\n"
         f"┣⪼01. /start - To Alive Check Bot \n"
         f"┣⪼02. /drm - for extract txt file\n"
