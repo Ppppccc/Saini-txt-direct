@@ -246,7 +246,7 @@ async def restart_handler(_, m):
 async def start_command(bot: Client, message: Message):
     random_image_url = random.choice(image_urls)
     caption = (
-        "𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭\n\n➠ Can Extract Videos & PDFs From Your Text File and Upload to Telegram!\n\n➠ For Guide Use Command /help 📖\n\n➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎 🦁"
+        "𝐇𝐞𝐥𝐥𝐨 गांडु 👋!\n\n➠ 𝐈 𝐚𝐦 URL UPLODER 𝐁𝐨𝐭\n\n➠ Can Extract Videos & PDFs From Your Text File and Upload to Telegram!\n\n➠ For Guide Use Command /help 📖\n\n➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : 🌑 •]••´º´•» 🅓🅐🅡🅚 🅟🅡🅘🅝🅒🅔 «•´º´••[• 🌑"
     )
     await bot.send_photo(
         chat_id=message.chat.id,
@@ -295,7 +295,7 @@ async def txt_handler(client: Client, m: Message):
         f"┣⪼08. /info - Your information.\n"
         f"┣⪼09. /stop - Stop the Running Task. 🚫\n"
         f"╰⪼🔗  Direct Send Link For Extract (with https://)\n\n"
-        f"**If you have any questions, feel free to ask [*DARK* *PRINCE*🐦](https://t.me/All_Coching_Paid_Course)! 💬**\n"
+        f"**If you have any questions, feel free to ask [•••´º´•» 🅓🅐🅡🅚 🅟🅡🅘🅝🅒🅔 «•´º´•••](https://t.me/All_Coching_Paid_Course)! 💬**\n"
         )
     ) 
 
@@ -608,7 +608,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">__**Api Link**__</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [*DARK* *PRINCE*🐦](https://t.me/All_Coching_Paid_Course)"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [•••´º´•» 🅓🅐🅡🅚 🅟🅡🅘🅝🅒🅔 «•´º´•••](https://t.me/All_Coching_Paid_Course)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
@@ -637,7 +637,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">__**Api Link**__</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [*DARK* *PRINCE*🐦](https://t.me/All_Coching_Paid_Course)"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [•••´º´•» 🅓🅐🅡🅚 🅟🅡🅘🅝🅒🅔 «•´º´•••](https://t.me/All_Coching_Paid_Course)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
@@ -666,7 +666,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">__**Api Link**__</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [*DARK* *PRINCE*🐦](https://t.me/All_Coching_Paid_Course)"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [•••´º´•» 🅓🅐🅡🅚 🅟🅡🅘🅝🅒🅔 «•´º´•••](https://t.me/All_Coching_Paid_Course)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
