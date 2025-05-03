@@ -68,7 +68,7 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(text="📞 Contact", url="https://t.me/DARKPRINCE7078_BOT"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/DARKPRINCE7078_BOT"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/All_Coching_Paid_Course"),
         ],
     ]
 )
@@ -283,7 +283,7 @@ async def info(bot: Client, update: Message):
 @bot.on_message(filters.command(["help"]))
 async def txt_handler(client: Client, m: Message):
     await bot.send_message(m.chat.id, text= (
-        f"🎉Congrats! You are using DARK PRINCE:\n\n"
+        f"🎉Congrats! You are using *DARK* *PRINCE*:\n\n"
         f"✦**Available Commands Here**✦\n\n"
         f"┣⪼01. /start - To Alive Check Bot \n"
         f"┣⪼02. /drm - for extract txt file\n"
@@ -295,7 +295,7 @@ async def txt_handler(client: Client, m: Message):
         f"┣⪼08. /info - Your information.\n"
         f"┣⪼09. /stop - Stop the Running Task. 🚫\n"
         f"╰⪼🔗  Direct Send Link For Extract (with https://)\n\n"
-        f"**If you have any questions, feel free to ask [DARK PRINCE🐦](https://t.me/DARKPRINCE7078_BOT)! 💬**\n"
+        f"**If you have any questions, feel free to ask [*DARK* *PRINCE*🐦](https://t.me/All_Coching_Paid_Course)! 💬**\n"
         )
     ) 
 
@@ -395,7 +395,7 @@ async def txt_handler(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     if raw_text3 == '1':
-        CR = '[DARK PRINCE 🐦](https://t.me/DARKPRINCE7078_BOT)'
+        CR = '[DARK PRINCE 🐦](https://t.me/All_Coching_Paid_Course)'
     else:
         CR = raw_text3
 
@@ -608,7 +608,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">__**Api Link**__</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [DARK PRINCE🐦](https://t.me/DARKPRINCE7078_BOT)"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [*DARK* *PRINCE*🐦](https://t.me/All_Coching_Paid_Course)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
@@ -637,7 +637,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">__**Api Link**__</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [DARK PRINCE🐦](https://t.me/DARKPRINCE7078_BOT)"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [*DARK* *PRINCE*🐦](https://t.me/All_Coching_Paid_Course)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
@@ -666,7 +666,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">__**Api Link**__</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [DARK PRINCE🐦](https://t.me/DARKPRINCE7078_BOT)"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [*DARK* *PRINCE*🐦](https://t.me/All_Coching_Paid_Course)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
